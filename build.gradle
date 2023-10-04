@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-    deobfCompile "mezz.jei:jei_${jei_version}"
+    deobfProvided "mezz.jei:jei_${jei_version}"
 }
 
 processResources {
